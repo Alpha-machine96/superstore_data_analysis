@@ -5,13 +5,13 @@ ________________________________________________________________________________
 
 This project analyzes 4 years of retail sales data (2011-2014) for a superstore, focusing on:
 
-•	Inventory optimization - Identifying fast vs slow-moving products
+-	Inventory optimization - Identifying fast vs slow-moving products
 
-•	Sales performance - Analyzing trends across categories, regions, and time
+-	Sales performance - Analyzing trends across categories, regions, and time
 
-•	Profitability analysis - Understanding profit margins and discount impacts
+-	Profitability analysis - Understanding profit margins and discount impacts
 
-•	Operational efficiency - Evaluating delivery performance and shipping methods
+-	Operational efficiency - Evaluating delivery performance and shipping methods
 
 Project Type: Business Analytics | Inventory Management | Data Visualization
 
@@ -35,13 +35,13 @@ ________________________________________________________________________________
    
 **Success Metrics:**
 
-•	Identify top 20% products generating 80% of revenue (ABC Analysis)
+-	Identify top 20% products generating 80% of revenue (ABC Analysis)
 
-•	Optimize discount strategy to improve profit margins by 5-10%
+-	Optimize discount strategy to improve profit margins by 5-10%
 
-•	Reduce slow-moving inventory by 15%
+-	Reduce slow-moving inventory by 15%
 
-•	Improve delivery efficiency across shipping methods
+-	Improve delivery efficiency across shipping methods
 ________________________________________________________________________________________________________________________________________
 
 ## Dataset
@@ -52,34 +52,34 @@ Synthetic data generated using Python to simulate realistic superstore operation
 
 **Description**
 
-•	Rows: 51,290 order records
+-	Rows: 51,290 order records
 
-•	Time Period: January 2011 - October 2014
+-	Time Period: January 2011 - October 2014
 
-•	Geographic Coverage: 4 US regions (East, West, Central, South)
+-	Geographic Coverage: 4 US regions (East, West, Central, South)
 
-•	Product Categories: Furniture, Office Supplies, Technology
+-	Product Categories: Furniture, Office Supplies, Technology
 
 
 **Engineered Features:**
 
-•	Order_Year, Order_Month, Order_Quarter - Temporal features for trend analysis
+-	Order_Year, Order_Month, Order_Quarter - Temporal features for trend analysis
 
-•	Order_Day_of_Week - Day of week for pattern recognition
+-	Order_Day_of_Week - Day of week for pattern recognition
 
-•	Delivery duration  - Time between order and shipment
+-	Delivery duration  - Time between order and shipment
 
 ________________________________________________________________________________________________________________________________________
 
 ## Key Findings
 
-💰 **Financial Performance**
+ **Financial Performance**
 
-•	Total Sales: $12,642,905 over 4 years
+-	Total Sales: $12,642,905 over 4 years
 
-•	Total Profit: $1,469,034 (11.6% margin)
+-	Total Profit: $1,469,034 (11.6% margin)
 
-📦 **Inventory Insights**
+ **Inventory Insights**
 
 1.	ABC Analysis: Top 20% of products generate 78% of sales
 
@@ -89,56 +89,56 @@ ________________________________________________________________________________
 
 4.	Category Performance: Technology has highest profit margins (25.3%)
 
-🚨 **Critical Issues**
+ **Critical Issues**
 
-•	High Discounts = Losses: Discounts >30% consistently result in negative profits
+-	High Discounts = Losses: Discounts >30% consistently result in negative profits
 
-•	Regional Imbalance: West region generates 35% of sales vs South at 18%
+-	Regional Imbalance: West region generates 35% of sales vs South at 18%
 
-•	Seasonal Peaks: Q4 shows 40% increase in sales (holiday shopping)
+-	Seasonal Peaks: Q4 shows 40% increase in sales (holiday shopping)
 
-📈 **Growth Opportunities**
+ **Growth Opportunities**
 
-•	Consumer segment represents 50% of orders but untapped potential in Corporate
+-	Consumer segment represents 50% of orders but untapped potential in Corporate
 
-•	Same-day shipping has highest customer satisfaction but only 5% adoption
+-	Same-day shipping has highest customer satisfaction but only 5% adoption
 
-•	Technology category has room for expansion (currently 20% of sales)
+-	Technology category has room for expansion (currently 20% of sales)
 __________________________________________________________________________________________________________________________________________
 
 ## Technologies Used
 
 **Core Libraries:**
 
-•	Python 3.8+ - Programming language
+-	Python 3.8+ - Programming language
 
-•	Pandas 1.5.0 - Data manipulation and analysis
+-	Pandas 1.5.0 - Data manipulation and analysis
 
-•	NumPy 1.23.0 - Numerical computing
+-	NumPy 1.23.0 - Numerical computing
 
-•	Matplotlib 3.6.0 - Data visualization
+-	Matplotlib 3.6.0 - Data visualization
 
-•	Seaborn 0.12.0 - Statistical visualizations
+-	Seaborn 0.12.0 - Statistical visualizations
 
 **Development Environment:**
 
-•	Jupyter Notebook - Interactive development
+-	Jupyter Notebook - Interactive development
 
-•	Git & GitHub - Version control
+-	Git & GitHub - Version control
 
-•	VS Code - Code editor
+-	VS Code - Code editor
 
 **Analysis Techniques:**
 
-•	Descriptive Statistics
+-	Descriptive Statistics
 
-•	Time Series Analysis
+-	Time Series Analysis
 
-•	ABC (Pareto) Analysis
+-	ABC (Pareto) Analysis
 
-•	Correlation Analysis
+-	Correlation Analysis
 
-•	Segmentation Analysis
+-	Segmentation Analysis
 
 ________________________________________________________________________________________________________________________________________
 
@@ -146,11 +146,11 @@ ________________________________________________________________________________
 
 **Prerequisites**
 
-•	Python 3.8 or higher
+-	Python 3.8 or higher
 
-•	pip package manager
+-	pip package manager
 
-•	Git (for cloning repository)
+-	Git (for cloning repository)
 
 **Usage**
 
@@ -175,47 +175,47 @@ Link: https://www.kaggle.com/datasets/aditisaxena20/superstore-sales-dataset
 
 2. **Data Cleaning**
 
-✅ Checked for missing values (None found)
+- Checked for missing values (None found)
 
-✅ Verified data types and conversions
+- Verified data types and conversions
 
-✅ Created temporal features from dates
+- Created temporal features from dates
 
-✅ Validated logical consistency
+- Validated logical consistency
 
-✅ Calculated derived metrics
+- Calculated derived metrics
 
 3. **Exploratory Data Analysis**
 
-Univariate Analysis: Distribution of individual variables
+- Univariate Analysis: Distribution of individual variables
 
-Bivariate Analysis: Relationships between pairs of variables
+- Bivariate Analysis: Relationships between pairs of variables
 
-Multivariate Analysis: Complex interactions
+- Multivariate Analysis: Complex interactions
 
-Temporal Analysis: Trends over time
+- Temporal Analysis: Trends over time
 
-Segmentation: Performance by categories, regions, segments
+- Segmentation: Performance by categories, regions, segments
 
 4. **Visualization**
 
-Created different professional charts across several dashboards
+- Created different professional charts across several dashboards
 
-Used appropriate chart types for each insight
+- Used appropriate chart types for each insight
 
-Applied consistent styling and color schemes
+- Applied consistent styling and color schemes
 
-Ensured accessibility and readability
+- Ensured accessibility and readability
 
 5. **Insight Generation**
 
-Synthesized findings from all analyses
+- Synthesized findings from all analyses
 
-Prioritized by business impact
+- Prioritized by business impact
 
-Developed actionable recommendations
+- Developed actionable recommendations
 
-Validated with data evidence
+- Validated with data evidence
 
 ____________________________________________________________________________________________________________________________________________________________________
 
@@ -229,7 +229,7 @@ ________________________________________________________________________________
       
       **Recommendations:**
       
-   Category A Products (High Priority):
+   - Category A Products (High Priority):
       
       Maintain higher stock levels
       
@@ -240,7 +240,7 @@ ________________________________________________________________________________
       Priority placement in warehouse
       
       
-   Category C Products (Low Priority):
+   - Category C Products (Low Priority):
       
       Minimize inventory
       
@@ -257,19 +257,19 @@ ________________________________________________________________________________
       
       **Recommendations:**
       
-      Cap maximum discount at 25%
+     - Cap maximum discount at 25%
       
-      Limit high discounts to:
+     - Limit high discounts to:
       
-      Clearance of slow-moving inventory
+     - Clearance of slow-moving inventory
       
-      Bulk orders (>10 units)
+     - Bulk orders (>10 units)
       
-      End-of-season sales
+     - End-of-season sales
       
-      Optimal discount range: 10-15% (maintains profitability)
+     - Optimal discount range: 10-15% (maintains profitability)
       
-      Implement dynamic pricing based on inventory age
+     - Implement dynamic pricing based on inventory age
 
 3. **Regional Resource Allocation**
 
@@ -277,13 +277,13 @@ ________________________________________________________________________________
       
       **Recommendations:**
       
-      Increase inventory allocation to West region (currently underserved)
+     - Increase inventory allocation to West region (currently underserved)
       
-      Consider opening regional distribution center
+     - Consider opening regional distribution center
       
-      Allocate more marketing budget to high-performing regions
+     - Allocate more marketing budget to high-performing regions
       
-      Study South region's underperformance (only 18% of sales)
+     - Study South region's underperformance (only 18% of sales)
 
 4. **Category Expansion**
 
@@ -291,13 +291,13 @@ ________________________________________________________________________________
       
       **Recommendations:**
       
-      Expand Technology product line
+     - Expand Technology product line
       
-      Increase marketing for tech products
+     - Increase marketing for tech products
       
-      Bundle tech accessories with main products
+     - Bundle tech accessories with main products
       
-      Train sales team on tech product benefits
+     - Train sales team on tech product benefits
 
 5. **Shipping Optimization**
 
@@ -305,13 +305,13 @@ ________________________________________________________________________________
       
       **Recommendations:**
       
-      Promote same-day shipping option
+     - Promote same-day shipping option
       
-      Offer incentives for faster shipping (customer loyalty)
+     - Offer incentives for faster shipping (customer loyalty)
       
-      Negotiate better rates with carriers
+     - Negotiate better rates with carriers
       
-      Optimize warehouse locations for faster delivery
+     - Optimize warehouse locations for faster delivery
 
 6. **Seasonal Inventory Planning**
 
@@ -319,13 +319,13 @@ ________________________________________________________________________________
       
       **Recommendations:**
       
-      Build inventory 2 months before Q4 (August-September)
+     - Build inventory 2 months before Q4 (August-September)
       
-      Hire seasonal staff in advance
+     - Hire seasonal staff in advance
       
-      Negotiate bulk discounts with suppliers
+     - Negotiate bulk discounts with suppliers
       
-      Prepare marketing campaigns early
+     - Prepare marketing campaigns early
 
 ___________________________________________________________________________________________________________________________________________________________________________
 
